@@ -1,49 +1,87 @@
 <!doctype html>
 <html>
-	<head>
+	<header>
 		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
-		<title>Travel Dreams</title>
-		
+		<link rel="stylesheet" type="text/css" href="../CSS/960_12_col.css">
+		<title>Set Off</title>
+		<img src="../img/logo.jpg">
 		<meta charset="utf-8">
-	</head>
-	<body>
-		<div class="menu">
+	</header>
+
+	<nav>
+		<div class="nav">
 		<ul>
-			<li id="logo">Travel Dreams</li>
+			<li>Home</li>
 			<li>Explore</li>
 			<li>Forum</li>
 			<li>Contact us</li>
+			<aside>
 			<li>Search</li>
+			<li ><input id="Search" type="text" value="search" onClick="" name="search"></li>
+			<aside>
 		</ul>
-		</div>
 
+		</div>
 		<div class="slideshow">
-		<img class="slides" src="../img/Adventure.jpg">
+		<!-- <img class="slides" src="../img/Adventure.jpg"> -->
 		<img class="slides" src="../img/Hiking.jpg">
-		<img class="slides" src="../img/Biking.jpg">
-		<img class="slides" src="../img/Coastlines.jpg">
-		<img class="slides" src="../img/Frozen.jpg">
-		<!-- <button class="left" onmouseover="plusDivs(-1)">&#10094;</button>
-		<button class="right" onmouseover="plusDivs(+1)">&#10095;</button> -->
+		<!-- <img class="slides" src="../img/Biking.jpg"> -->
+		<!-- <img class="slides" src="../img/Coastlines.jpg"> -->
+		<!-- <img class="slides" src="../img/Frozen.jpg"> -->
 		</div>
+	</nav>
+	<section>
+	<div class="container_12">
+	<div >
+		<p class="grid_4"><img src="../img/column1.jpg"></p>
+		<p class="grid_4"><img src="../img/column2.jpg"></p>
+		<p class="grid_4"><img src="../img/column3.jpg"></p>
+	</div>
+	<section>
+	<section>
+	<div class="container_12">
+	<div >
+		<p class="grid_4"><img src="../img/column4.jpg"></p>
+		<p class="grid_4"><img src="../img/column5.jpg"></p>
+		<p class="grid_4"><img src="../img/column6.jpg"></p>
+	</div>
+	<section>
 
-	<!-- 	<script >
-			var index = 0;
-			auto();
 
-			function auto(){
-				var x = document.getElementByClassName("slides");
-				for (var i = 0; i < x.length; i++) {
-					x[i].style.display = "none";
-				}
-				index++;
-				if (index > x.length) {index = 1}
-					x[i].style.display = "block";
-				setTimeout(auto,2000);
-			}
-		</script> -->
-	
+	<footer style="background-color: #3288fe">
+	<div class="container_12" style="color: #40E0D0" >
+	<div >
+		<p class="grid_4" >
+		<img class="ftlogo" src="../img/logo.jpg">
+		All journeys have secret destination of which the traveller is unaware</p>
 
-		<div class="feed">
-	</body>
+
+		<p class="grid_4">Recent Posts:
+		<a href="https://www.tripoto.com/trip/europe-backpacking-series-why-you-will-love-and-hate-europe-578b46ffb3648">Europe Backpacking Series: Why You Will Love and Hate Europe</a>
+		<a href="https://www.tripoto.com/trip/bhabha-pass-the-lesser-known-route-to-spiti-from-kinnaur-a-photo-journey-5898798063a8a">Bhabha Pass- The lesser known route to Spiti from kinnaur- A Photo Journey!</a>
+		<a href="https://www.tripoto.com/trip/polling-barot-valley-discover-nature-s-hidden-treasures-in-himachal-pradesh-58a1d1eb2d370">Polling-Barot Valley : Discover Nature’s Hidden Treasures In Himachal Pradesh.</a>
+		</p>
+		<p class="grid_4">
+		<img class="iconfb" src="../img/fb.jpg">
+			<img class="icontwt" src="../img/twitter.jpg"></p>
+	</div>
+	<!-- <div class="btm">
+		<table>
+			<tr>
+				<th>Set Off</th>
+				<th>Recent posts</th>
+			</tr>
+			<tr>
+				<td>Travel far away to get deep into you</td>
+				<td>27 Roads across India that every traveller should take</td>
+			</tr>
+		</table>
+	</div>
+		<aside>
+			<p>be connected</p>
+			<img class="icon" src="../img/fb.jpg">
+			<img class="icon" src="../img/twitter.jpg">
+		</aside> -->
+	</footer>
+	</div>
 </html>
