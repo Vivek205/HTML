@@ -1,0 +1,75 @@
+header{
+	margin: auto;
+	width: 960px;
+	background-color: #3288fe;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	justify-content: center;
+	text-align: center;
+	min-height: 40px;
+}
+nav{
+	background-color: #3288fe;
+	margin: auto;
+	width: 960px;
+}
+nav li {
+	display: inline;
+	padding-right: 30px;
+}
+nav aside {
+	float: right;
+}
+#search {
+	width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#search : active{
+	width: 500px;
+}
+.slideshow , .slides{
+	width: 960px;
+	height: 360px;
+	margin : auto;
+}
+
+
+footer{
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.btm {
+	float: left;
+	width: 80%;
+}
+.ftlogo{
+	width: 20;
+	height: 20;
+}
+.iconfb{
+	align-self: baseline;
+	width: 70px;
+	height: 20px;
+}
+.icontwt{
+	align-items: baseline;
+	width: 20px;
+	height: 20px;
+}
+.iconfb:hover{
+	width: 140px;
+	height: 40px;
+}
+
+.icontwt:hover{
+	width: 100px;
+	height: 100px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	font-size-adjust: .50;
+	color: red;
+}
